@@ -1,0 +1,88 @@
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  padding: 30px 0;
+  background: #333;
+  color: white;
+}
+
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px 0;
+}
+
+.about img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.bio {
+  flex: 1;
+  max-width: 500px;
+}
+
+.skills ul {
+  list-style: none;
+  padding: 0;
+}
+
+.skills ul li {
+  background: #eee;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.projects {
+  padding: 40px 0;
+}
+
+.projects .project {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 20px;
+  background: white;
+  border-radius: 5px;
+}
+
+.projects img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.resume a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.contact p {
+  margin: 10px 0;
+}
+
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background: #333;
+  color: white;
+}
